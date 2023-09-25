@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+main {
+  height: 400px;
+  padding: 20px;
+  border: 10 solid;
+  margin: 20px;
+}
+.main-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
