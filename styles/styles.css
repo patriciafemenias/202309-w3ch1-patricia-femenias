@@ -11,7 +11,7 @@ main {
   margin: 20px;
 }
 .main-container {
-  margin: 0;
+  margin-bottom: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -22,4 +22,42 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px;
+}
+.header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  margin: 20px;
+  font-weight: bold;
+  flex-direction: row;
+}
+
+.input-box {
+  margin: 5px;
+}
+
+.option-box {
+  margin: 10px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: justify;
+}
+
+.form-box {
+  left: auto;
+  background-color: #0000004c;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 40vw;
 }
