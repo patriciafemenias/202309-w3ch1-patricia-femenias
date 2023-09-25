@@ -15,8 +15,11 @@
 
 <body>
   <main class="main-container">
-    <h1>Formulario para enviar un email</h1>
-    <form class="form-box">
+    <header class="header-box">
+      <h1 class="form-title">Formulario para enviar un email</h1>
+      <img class="main-image" src="images/planes.jpg" alt="planes">
+    </header>
+    <form novalidate class="form-box">
       <div class="form-row"><label for="email">Remitente: </label>
         <input class="input-box" id="email" type="text" value="poor-student@isdicoders.com" required>
       </div>
@@ -27,13 +30,13 @@
         <input class="input-box" id="text" type="text">
       </div>
       <div class="form-row"><label for="text">Cuerpo:</label>
-        <input class="input-box" id="text" type="text" required>
+        <textarea rows="10" cols="30" minlength="10" class="input-box" id="text" type="text" required></textarea>
       </div>
       <div class="form-row"><label for="file">Adjuntar archivo:</label>
         <input class="input-box" id="file" type="file">
       </div>
       <div class="form-row"><label for="date">Sending time:</label>
-        <input class="input-box" id="date" type="date">
+        <input class="input-box" id="date" type="datetime-local">
       </div>
       <label for="program-sending-email">Programar envío</label>
       <input type="checkbox">
