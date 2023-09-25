@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="email form" content="email form page">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <title>Form</title>
+</head>
+
+<body>
+  <main class="main-container">
+    <h1>Formulario para enviar un email</h1>
+    <form class="form-box">
+      <div class="form-row"><label for="email">Remitente: </label>
+        <input class="input-box" id="email" type="text" value="poor-student@isdicoders.com" required>
+      </div>
+      <div class="form-row"><label for="email">Destinatario:</label>
+        <input class="input-box" id="email" type="email" required>
+      </div>
+      <div class="form-row"><label for="text">Asunto:</label>
+        <input class="input-box" id="text" type="text">
+      </div>
+      <div class="form-row"><label for="text">Cuerpo:</label>
+        <input class="input-box" id="text" type="text" required>
+      </div>
+      <div class="form-row"><label for="file">Adjuntar archivo:</label>
+        <input class="input-box" id="file" type="file">
+      </div>
+      <div class="form-row"><label for="date">Sending time:</label>
+        <input class="input-box" id="date" type="date">
+      </div>
+      <label for="program-sending-email">Programar envío</label>
+      <input type="checkbox">
+
+    </form>
+  </main>
+</body>
+
+</html>
