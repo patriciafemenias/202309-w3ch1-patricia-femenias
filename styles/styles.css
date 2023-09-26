@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body. h1 {
+  margin: 0;
+}
+
 main {
   height: 400px;
   padding: 20px;
@@ -11,7 +15,7 @@ main {
   margin: 20px;
 }
 .main-container {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -23,6 +27,7 @@ html {
   font-size: 20px;
   padding: 10px;
 }
+
 .header-box {
   display: flex;
   flex-direction: column;
@@ -30,14 +35,20 @@ html {
 }
 
 .form-row {
-  display: flex;
+  display: block;
   margin: 20px;
   font-weight: bold;
   flex-direction: row;
+position: relative;
+align-items: center;
 }
 
 .input-box {
   margin: 5px;
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  width: 100%;
 }
 
 .option-box {
@@ -53,11 +64,33 @@ html {
 .form-box {
   left: auto;
   background-color: #0000004c;
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.check-box {
+}
+
+.checkbox-box {
+  height: 20px;
+  weidt
 }
 
 .main-image {
   width: 40vw;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
 }
